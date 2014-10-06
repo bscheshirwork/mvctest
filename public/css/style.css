@@ -1,0 +1,54 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+}
+
+.category_1 {
+}
+.category_2 {
+	 padding-left: 20px;
+}
+.category_3 {
+	 padding-left: 30px;
+}
+.category_4 {
+	 padding-left: 35px;
+}
+.category_5 {
+	 padding-left: 37px;
+}
+
+.categories {
+	
+	float: left;
+}
+
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon:empty {
+	width: 1em;
+}
+
+.glyphicon-home:before {
+	content: "\e021";
+}

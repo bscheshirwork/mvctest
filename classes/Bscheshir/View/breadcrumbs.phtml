@@ -1,0 +1,7 @@
+<div class="breadcrumbs">
+<a href="/catalog" class="glyphicon-home glyphicon"></a>
+<?php foreach ($this->items as $value): ?>
+/ <a href="/catalog<?php echo $value->parents.$value->alias;?>"><?php echo $value->name; ?> </a>
+<?php endforeach; ?>
+</div>
+

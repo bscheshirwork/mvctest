@@ -1,0 +1,19 @@
+<html >
+    <head>
+        <meta charset="utf-8">
+		<link rel="icon" type="img/ico" href="<?php echo $this->baseUrl; ?>/img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/style.css" >
+    </head>
+    <body>
+        <div class="container">
+            <?php echo $this->breadcrumbs; ?>
+            <hr>
+            <?php echo $this->categoryList; ?>
+            <?php echo $this->content; ?>
+            <footer>
+            <hr>
+                <p>&copy; <?php echo date('Y') ?> by BSChehsir</p>
+            </footer>
+        </div> <!-- /container -->
+    </body>
+</html>

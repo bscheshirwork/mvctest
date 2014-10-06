@@ -1,0 +1,7 @@
+<div class="categories">
+<?php foreach ($this->items as $value): ?>
+	<div class="category category_<?php echo substr_count($value->parents,'/'); ?>">
+		<a href="/catalog<?php echo $value->parents.$value->alias;?>"><?php echo $value->name; ?></a>
+	</div>
+<?php endforeach; ?>
+</div>

@@ -1,0 +1,7 @@
+<?php $i=1 ?>
+<div class="items">
+<?php foreach ($this->items as $value): ?>
+	<?php echo $i++ ?>: <a href="/catalog<?php echo $category->parents.$category->alias.'/'.$value->alias;?>"><?php echo $value->name; ?></a> <br>
+<?php endforeach; ?>
+</div>
+
